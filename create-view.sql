@@ -15,5 +15,5 @@ WHERE track_id IN (
   WHERE playlist_id IN (
     SELECT playlist_id FROM playlist
     WHERE name = 'Classical'
-    )
   )
+)
